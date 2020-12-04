@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'This is a minimal pipeline.'
+        echo 'This is a minimal pipeline.'
+        echo 'test'
       }
     }
 
