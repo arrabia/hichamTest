@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('test') {
       steps {
-        echo 'Hicham'
+        echo 'good'
       }
     }
 
