@@ -10,7 +10,7 @@ pipeline {
 
     stage('WHAT  to approve') {
       steps {
-        input 'taper le code'
+        input(message: 'Deploy to Stage', ok: 'Yes, let\'s do it!')
       }
     }
 
