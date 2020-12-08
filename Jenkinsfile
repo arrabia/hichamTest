@@ -8,6 +8,12 @@ pipeline {
       }
     }
 
+    stage('WHAT  to approve') {
+      steps {
+        input 'taper le code'
+      }
+    }
+
   }
   tools {
     maven 'Apache Maven 3.6.3'
